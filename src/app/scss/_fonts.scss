@@ -1,0 +1,19 @@
+$weights: ( 
+    extra-bold: 900,
+    bold: 700,
+    semi-bold: 600,
+    medium: 500,
+    normal: 400,
+    light: 300
+);
+
+@mixin font($size, $color) {
+    font-family: $primary-font, $secondary-font;
+    font-weight: $normal;
+    font-size: $size;
+    color: $color;
+}
+
+@function get-weight($key) {
+    @return map-get($weights, $key);
+}

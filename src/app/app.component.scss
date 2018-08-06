@@ -1,0 +1,13 @@
+@import 'scss/index';
+table {
+    width: 100%;
+}
+
+.example-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.example-container > * {
+    width: 100%;
+}
