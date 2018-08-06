@@ -1,6 +1,13 @@
 [![Angular Logo](./src/assets/images/angular.png)](https://angular.io/)
-[![TypeORM Logo](./src/assets/images/typeorm.png)](http://typeorm.io/)
-[![Electron Logo](./src/assets/images/electron.svg)](https://electron.atom.io/)
+<div align="center">
+  <a href="http://typeorm.io/">
+    <img src="https://github.com/typeorm/typeorm/raw/master/resources/logo_big.png" width="492" height="228">
+  </a>
+  <br>
+</div>
+
+[![Electron Logo](https://electronjs.org/images/electron-logo.svg)](https://electronjs.org)
+
 
 [![Build Status](https://travis-ci.org/CubikNeRubik/angular-electron-typeorm-starter.svg?branch=master)](https://travis-ci.org/CubikNeRubik/angular-electron-typeorm-starter)
 [![License](http://img.shields.io/badge/Licence-MIT-brightgreen.svg)](LICENSE.md)
