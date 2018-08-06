@@ -1,7 +1,9 @@
-[![Angular Logo](./src/assets/images/angular.png)](https://angular.io/)
-<div align="center">
+<div>
+  <a href="https://angular.io/">
+    <img style="display: inline-block" src="https://angular.io/assets/images/logos/angular/angular.svg" width="128" height="128">
+  </a>
   <a href="http://typeorm.io/">
-    <img src="https://github.com/typeorm/typeorm/raw/master/resources/logo_big.png" width="492" height="228">
+    <img style="display: inline-block" src="https://github.com/typeorm/typeorm/raw/master/resources/logo_big.png" width="292" height="128">
   </a>
   <br>
 </div>
