@@ -85,11 +85,11 @@ You can desactivate "Developer Tools" by commenting `win.webContents.openDevTool
 
 **Your application is optimised. Only /dist folder and node dependencies are included in the executable.**
 
-## Browser mode
+## Known issues
 
-You can't use TypeORM in browser so it is not possible.
-If you need to run app in browser and don't need TypeORM you can use [angular-electron](https://github.com/maximegris/angular-electron) for that
-
+1. **Browser mode.** You can't use TypeORM in browser so it is not possible.If you need to run app in browser and don't need TypeORM you can use [angular-electron](https://github.com/maximegris/angular-electron) for that.
+1. **Windows Build.** You cannot make build for `windows` if path to project folder contains spaces or not latin letters.
+ 
 [github-watch-badge]: https://img.shields.io/github/watchers/CubikNeRubik/angular-electron-typeorm-starter.svg?style=social
 [github-watch]: https://github.com/CubikNeRubik/angular-electron-typeorm-starter/watchers
 [github-star-badge]: https://img.shields.io/github/stars/CubikNeRubik/angular-electron-typeorm-starter.svg?style=social
