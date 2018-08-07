@@ -33,6 +33,7 @@ Currently runs with:
 - Angular v6.1.1
 - Electron v2.0.6
 - Electron Builder v20.27.0
+- Angular Material v6.4.2
 - TypeORM v0.2.7
 - SQLite v4.0.2
 
