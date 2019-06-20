@@ -10,7 +10,13 @@ let serve: boolean = args.some(val => val === '--serve');
 
 function createWindow() {
 
-    win = new BrowserWindow({width: 800, height: 600});
+    win = new BrowserWindow({
+        width: 800, 
+        height: 600, 
+        webPreferences: {
+            nodeIntegration: true
+        },
+    });
 
 
     if (serve) {

@@ -30,12 +30,12 @@ This is a start kit for easy launch of Electron, Angular 6 and TypeORM.
 
 Currently runs with:
 
-- Angular v6.1.1
-- Electron v2.0.6
-- Electron Builder v20.27.0
-- Angular Material v6.4.2
-- TypeORM v0.2.7
-- SQLite v4.0.2
+- Angular v8.0.3
+- Electron v5.0.4
+- Electron Builder v20.44.1
+- Angular Material v8.0.1
+- TypeORM v0.2.18
+- SQLite v4.0.9
 
 With this start kit, you can :
 
