@@ -14,11 +14,11 @@ export class DatabaseService {
     constructor() {
         Settings.initialize();
         this.options = {
-            type: "sqlite",
+            type: 'sqlite',
             database: Settings.dbPath,
             entities: [User],
             synchronize: true,
-            logging: false,
+            logging: 'all',
         };
         this.connection = createConnection(this.options);
     }
