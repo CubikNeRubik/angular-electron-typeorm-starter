@@ -10,9 +10,9 @@ fs.readFile(f_angular, 'utf8', function (err, data) {
         return console.log(err);
     }
 
-    var result = data.replace(/return {([\s\S]+)}[\s]+,/, 'return {');
-    var result = result.replace(/target: "web",/g, '');
-    var result = result.replace(/return \{/g, 'return {' + webConfig);
+    let result = data.replace(/return {[\s\S]+?$/m, 'return {');
+    result = result.replace(/target: "web",/g, '');
+    result = result.replace(/return \{/g, 'return {' + webConfig);
 
     fs.writeFile(f_angular, result, 'utf8', function (err) {
         if (err) return console.log(err);
