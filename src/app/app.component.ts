@@ -16,17 +16,18 @@ export class AppComponent {
     lastName: string = '';
     age: string = '';
 
-    constructor(private databaseService: DatabaseService) {
+    // constructor(private databaseService: DatabaseService) {
+    constructor() {
         this.getUsers();
     }
 
     getUsers(){
-        this.databaseService
-            .connection
-            .then(() => User.find())
-            .then(users => {
-                this.users = users;
-            })
+        // this.databaseService
+        //     .connection
+        //     .then(() => User.find())
+        //     .then(users => {
+        //         this.users = users;
+        //     })
     }
 
     addUser(){
@@ -36,17 +37,17 @@ export class AppComponent {
         user.LastName = this.lastName;
         user.Age = +this.age;
 
-        this.databaseService
-            .connection
-            .then(() => user.save())
-            .then(() => {
-                this.getUsers();
-            })
-            .then(() => {
-                this.firstName = '';
-                this.lastName = '';
-                this.age = '';
-            })
+        // this.databaseService
+        //     .connection
+        //     .then(() => user.save())
+        //     .then(() => {
+        //         this.getUsers();
+        //     })
+        //     .then(() => {
+        //         this.firstName = '';
+        //         this.lastName = '';
+        //         this.age = '';
+        //     })
     }
 
 }
