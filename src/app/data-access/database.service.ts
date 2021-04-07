@@ -3,9 +3,9 @@ import {Connection, ConnectionOptions, createConnection} from 'typeorm';
 import {Settings} from './repositories/settings';
 import {User} from './entities/user.entity';
 
-// @Injectable({
-//     providedIn: 'root'
-// })
+@Injectable({
+    providedIn: 'root'
+})
 export class DatabaseService {
 
     public connection: Promise<Connection>;

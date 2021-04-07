@@ -16,8 +16,7 @@ export class AppComponent {
     lastName: string = '';
     age: string = '';
 
-    // constructor(private databaseService: DatabaseService) {
-    constructor() {
+    constructor(private databaseService: DatabaseService) {
         this.getUsers();
     }
 
